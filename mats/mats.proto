@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package mats;
+
+message Request {
+    string ip = 1;
+}
+
+message Response {
+    int32 result = 1;
+}
+
+message CheckMats {
+    int32 mat = 1;
+}
